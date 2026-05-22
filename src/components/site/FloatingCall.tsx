@@ -3,7 +3,7 @@ import { Phone } from "lucide-react";
 export function FloatingCall() {
   return (
     <a
-      href="#"
+      href="tel:+18773706029"
       aria-label="Call now"
       className="fixed bottom-20 sm:bottom-24 right-6 z-40 group"
     >
@@ -13,7 +13,7 @@ export function FloatingCall() {
         <Phone className="h-6 w-6" />
       </span>
       <span className="hidden sm:block absolute right-20 top-1/2 -translate-y-1/2 whitespace-nowrap glass-dark text-white px-4 py-2 rounded-full text-sm font-medium opacity-0 group-hover:opacity-100 transition">
-        (XXX) XXX-XXXX
+        (877) 370-6029
       </span>
     </a>
   );

@@ -82,12 +82,12 @@ export function Navbar() {
             <div className="hidden md:flex items-center gap-3">
               <div className="text-right leading-tight hidden xl:block">
                 <div className="text-[10px] uppercase tracking-wider text-ink-muted">Deborah Net advisor</div>
-                <a href="#" className="font-display font-bold text-ink hover:text-primary transition">
-                  (XXX) XXX-XXXX
+                <a href="tel:+18773706029" className="font-display font-bold text-ink hover:text-primary transition">
+                  (877) 370-6029
                 </a>
               </div>
               <a
-                href="#"
+                href="tel:+18773706029"
                 className="inline-flex items-center gap-2 rounded-full bg-gradient-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground shadow-soft hover:shadow-glow hover:-translate-y-0.5 transition-all"
               >
                 <Phone className="h-4 w-4" /> Get Assistance

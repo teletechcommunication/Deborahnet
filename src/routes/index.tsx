@@ -149,8 +149,8 @@ function HomePage() {
             </Reveal>
             <Reveal delay={300}>
               <div className="mt-6 flex flex-wrap gap-3">
-                <a href="#" className="btn-primary">
-                  <Phone className="h-4 w-4" /> Call (XXX) XXX-XXXX
+                <a href="tel:+18773706029" className="btn-primary">
+                  <Phone className="h-4 w-4" /> Call (877) 370-6029
                 </a>
                 <Link to="/services" className="btn-ghost">
                   View Plans & Pricing <ArrowRight className="h-4 w-4" />

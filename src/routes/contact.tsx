@@ -8,8 +8,8 @@ import { Reveal } from "@/components/site/Reveal";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact Deborah Net — Call (XXX) XXX-XXXX | Internet & Cable Support" },
-      { name: "description", content: "Get in touch with Deborah Net. Check ZIP availability, request a callback, or call (XXX) XXX-XXXX — 24/7 US-based support." },
+      { title: "Contact Deborah Net — Call (877) 370-6029 | Internet & Cable Support" },
+      { name: "description", content: "Get in touch with Deborah Net. Check ZIP availability, request a callback, or call (877) 370-6029 — 24/7 US-based support." },
       { property: "og:title", content: "Contact Deborah Net" },
       { property: "og:description", content: "24/7 US support, ZIP availability checker, and fast callbacks." },
       { property: "og:url", content: "/contact" },
@@ -35,7 +35,7 @@ function ContactPage() {
       <section className="relative py-12 mx-auto max-w-7xl px-4 sm:px-6">
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
           {[
-            { icon: Phone, t: "Call us", v: "(XXX) XXX-XXXX", href: "#", sub: "24/7 — under 30s pickup" },
+            { icon: Phone, t: "Call us", v: "(877) 370-6029", href: "tel:+18773706029", sub: "24/7 — under 30s pickup" },
             { icon: Mail, t: "Email", v: "support@deborahnet.com", href: "mailto:support@deborahnet.com", sub: "Reply within 2 hours" },
             { icon: MapPin, t: "Headquarters", v: "1200 Lincoln St, Denver CO", sub: "Mon–Sat, 8am–8pm MT" },
             { icon: Clock, t: "Working hours", v: "24/7 support line", sub: "365 days a year" },
@@ -107,7 +107,7 @@ function ContactPage() {
                 </form>
                 {zipResult === "checking" && <p className="mt-3 text-xs text-white/70">Checking your area…</p>}
                 {zipResult === "available" && (
-                  <p className="mt-3 text-xs text-primary-glow font-semibold">✓ Service available — call (XXX) XXX-XXXX to activate.</p>
+                  <p className="mt-3 text-xs text-primary-glow font-semibold">✓ Service available — call (877) 370-6029 to activate.</p>
                 )}
               </div>
             </div>
@@ -121,7 +121,7 @@ function ContactPage() {
               </div>
               <h3 className="mt-4 font-display text-xl font-bold text-ink">Need help right now?</h3>
               <p className="mt-2 text-sm text-ink-muted">Skip the form — call our 24/7 support team and talk to a real human in under 30 seconds.</p>
-              <a href="#" className="mt-5 btn-primary w-full"><Phone className="h-4 w-4" /> (XXX) XXX-XXXX</a>
+              <a href="tel:+18773706029" className="mt-5 btn-primary w-full"><Phone className="h-4 w-4" /> (877) 370-6029</a>
             </div>
           </Reveal>
         </div>
