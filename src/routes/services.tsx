@@ -14,7 +14,7 @@ export const Route = createFileRoute("/services")({
   head: () => ({
     meta: [
       { title: "Services — Fiber, Cable TV, WiFi & Business Internet | Deborah Net" },
-      { name: "description", content: "Explore high-speed internet, fiber, cable TV, home WiFi, business internet and streaming solutions from Deborah Net. Call (877) 370-6029." },
+      { name: "description", content: "Explore high-speed internet, fiber, cable TV, home WiFi, business internet and streaming solutions from Deborah Net. Call (833) 581-4461." },
       { property: "og:title", content: "Deborah Net Services" },
       { property: "og:description", content: "Premium internet, cable TV, WiFi and streaming solutions for every American home." },
       { property: "og:url", content: "/services" },
@@ -103,7 +103,7 @@ function ServicesPage() {
                   ))}
                 </ul>
 
-                <a href="tel:+18773706029" className="mt-8 btn-primary inline-flex">
+                <a href="tel:+18335814461" className="mt-8 btn-primary inline-flex">
                   <Phone className="h-4 w-4" /> Call about {s.title}
                 </a>
               </div>

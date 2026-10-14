@@ -56,7 +56,7 @@ function DisclaimerPage() {
         <p>We may revise this Disclaimer at any time without notice. The most current version is the version posted on this page. Continued use of the website following any change constitutes acceptance of the revised Disclaimer.</p>
 
         <h2>11. Contact</h2>
-        <p>If you have questions about this Disclaimer, call <a href="tel:+18773706029" className="hover:text-primary">(877) 370-6029</a> or email <a href="mailto:legal@deborahnet.com">legal@deborahnet.com</a>.</p>
+        <p>If you have questions about this Disclaimer, call <a href="tel:+18335814461" className="hover:text-primary">(833) 581-4461</a> or email <a href="mailto:legal@deborahnet.com">legal@deborahnet.com</a>.</p>
       </LegalContent>
     </SiteLayout>
   );

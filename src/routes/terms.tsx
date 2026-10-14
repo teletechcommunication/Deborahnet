@@ -56,7 +56,7 @@ function TermsPage() {
         <p>These terms are governed by the laws of the State of Colorado, without regard to its conflict-of-laws principles.</p>
 
         <h2>11. Contact</h2>
-        <p>For questions about these terms, call <a href="tel:+18773706029" className="hover:text-primary">(877) 370-6029</a> or email <a href="mailto:legal@deborahnet.com">legal@deborahnet.com</a>.</p>
+        <p>For questions about these terms, call <a href="tel:+18335814461" className="hover:text-primary">(833) 581-4461</a> or email <a href="mailto:legal@deborahnet.com">legal@deborahnet.com</a>.</p>
       </LegalContent>
     </SiteLayout>
   );
