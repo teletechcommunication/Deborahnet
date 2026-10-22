@@ -8,8 +8,8 @@ import { Reveal } from "@/components/site/Reveal";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact Deborah Net — Call (833) 581-4461 | Internet & Cable Support" },
-      { name: "description", content: "Get in touch with Deborah Net. Check ZIP availability, request a callback, or call (833) 581-4461 — 24/7 US-based support." },
+      { title: "Contact Deborah Net — Call (833) 878-1783 | Internet & Cable Support" },
+      { name: "description", content: "Get in touch with Deborah Net. Check ZIP availability, request a callback, or call (833) 878-1783 — 24/7 US-based support." },
       { property: "og:title", content: "Contact Deborah Net" },
       { property: "og:description", content: "24/7 US support, ZIP availability checker, and fast callbacks." },
       { property: "og:url", content: "/contact" },
@@ -35,7 +35,7 @@ function ContactPage() {
       <section className="relative py-12 mx-auto max-w-7xl px-4 sm:px-6">
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
           {[
-            { icon: Phone, t: "Call us", v: "(833) 581-4461", href: "tel:+18335814461", sub: "24/7 — under 30s pickup" },
+            { icon: Phone, t: "Call us", v: "(833) 878-1783", href: "tel:+18338781783", sub: "24/7 — under 30s pickup" },
             { icon: Mail, t: "Email", v: "support@deborahnet.com", href: "mailto:support@deborahnet.com", sub: "Reply within 2 hours" },
             { icon: MapPin, t: "Headquarters", v: "1200 Lincoln St, Denver CO", sub: "Mon–Sat, 8am–8pm MT" },
             { icon: Clock, t: "Working hours", v: "24/7 support line", sub: "365 days a year" },
@@ -107,7 +107,7 @@ function ContactPage() {
                 </form>
                 {zipResult === "checking" && <p className="mt-3 text-xs text-white/70">Checking your area…</p>}
                 {zipResult === "available" && (
-                  <p className="mt-3 text-xs text-primary-glow font-semibold">✓ Service available — call (833) 581-4461 to activate.</p>
+                  <p className="mt-3 text-xs text-primary-glow font-semibold">✓ Service available — call (833) 878-1783 to activate.</p>
                 )}
               </div>
             </div>
@@ -121,7 +121,7 @@ function ContactPage() {
               </div>
               <h3 className="mt-4 font-display text-xl font-bold text-ink">Need help right now?</h3>
               <p className="mt-2 text-sm text-ink-muted">Skip the form — call our 24/7 support team and talk to a real human in under 30 seconds.</p>
-              <a href="tel:+18335814461" className="mt-5 btn-primary w-full"><Phone className="h-4 w-4" /> (833) 581-4461</a>
+              <a href="tel:+18338781783" className="mt-5 btn-primary w-full"><Phone className="h-4 w-4" /> (833) 878-1783</a>
             </div>
           </Reveal>
         </div>
