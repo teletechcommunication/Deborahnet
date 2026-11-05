@@ -47,7 +47,7 @@ function RefundPage() {
         <p>Eligible customers may request a prorated service credit for confirmed outages lasting more than 24 consecutive hours that are attributable to the Deborah Net network. Credits do not apply to outages caused by force majeure, external infrastructure or customer-side equipment.</p>
 
         <h2>8. How to Request a Refund</h2>
-        <p>To request a refund or service credit, call <a href="tel:+18338781783" className="hover:text-primary">(833) 878-1783</a> or email <a href="mailto:billing@deborahnet.com">billing@deborahnet.com</a> with your account number, the charge in question and a brief description. Approved refunds are issued to the original payment method within 7-14 business days.</p>
+        <p>To request a refund or service credit, call <a href="tel:+18335813551" className="hover:text-primary">(833) 581-3551</a> or email <a href="mailto:billing@deborahnet.com">billing@deborahnet.com</a> with your account number, the charge in question and a brief description. Approved refunds are issued to the original payment method within 7-14 business days.</p>
 
         <h2>9. Disputes</h2>
         <p>If you disagree with a refund decision, you may escalate the matter in writing within 30 days. We will review and respond within 15 business days. Nothing in this policy limits your rights under applicable consumer protection laws.</p>
@@ -56,7 +56,7 @@ function RefundPage() {
         <p>We may update this Refund Policy from time to time. The most current version will always be available on this page with the "Last updated" date revised accordingly.</p>
 
         <h2>11. Contact</h2>
-        <p>Questions about refunds? Call <a href="tel:+18338781783" className="hover:text-primary">(833) 878-1783</a> or email <a href="mailto:billing@deborahnet.com">billing@deborahnet.com</a>.</p>
+        <p>Questions about refunds? Call <a href="tel:+18335813551" className="hover:text-primary">(833) 581-3551</a> or email <a href="mailto:billing@deborahnet.com">billing@deborahnet.com</a>.</p>
       </LegalContent>
     </SiteLayout>
   );

@@ -50,7 +50,7 @@ function PrivacyPage() {
         <p>We may update this policy periodically. Material changes will be communicated by email and posted on this page with a new "last updated" date.</p>
 
         <h2>9. Contact</h2>
-        <p>Questions? Call <a href="tel:+18338781783" className="hover:text-primary">(833) 878-1783</a> or email <a href="mailto:privacy@deborahnet.com">privacy@deborahnet.com</a>.</p>
+        <p>Questions? Call <a href="tel:+18335813551" className="hover:text-primary">(833) 581-3551</a> or email <a href="mailto:privacy@deborahnet.com">privacy@deborahnet.com</a>.</p>
       </LegalContent>
     </SiteLayout>
   );
